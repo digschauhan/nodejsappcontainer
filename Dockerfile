@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:15-slim
 
 # Directory inside which commands will run
 WORKDIR /usr/src/app
